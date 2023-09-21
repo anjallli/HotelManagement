@@ -1,4 +1,5 @@
-# HotelManagement
+#HotelManagementSystem by anjali mukund
+HOTEL MANAGEMENT SYSTEM 
 This is a full stack java project with frontend and backend. Frontend done by using angular in visual studio and Backend done by using java in spring tool.
 This project contains modules which are:
 Customer
