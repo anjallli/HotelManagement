@@ -1,0 +1,41 @@
+<h2 class="text-center">Customer List</h2>
+<table class="table table-striped">
+
+    <thead>
+        <th>Customer ID</th>
+        <th>Customer Name</th>
+        <th>Customer EmailID</th>
+        <th>Customer Contact No.</th>
+        <th>Customer Address</th>
+        <th>Username</th>
+        <th>Password</th>
+        <th>Actions</th>
+    </thead>
+    <tbody>
+       
+        <tr *ngFor ="let customer of customers" class="table-light">
+            <td>{{customer.employeeId}}</td>
+            <td>{{customer.employeeName}}</td>
+            <td>{{customer.employeeEmailId}}</td>
+            <td>{{customer.employeeContactNumber}}</td>
+            <td>{{customer.employeeAddress}}</td>
+            <td>{{customer.username}}</td>
+            <td>{{customer.password}}</td>
+            <td> <button (click)="updateCustomer(customer.employeeId)" class="btn btn-outline-primary">Update</button></td>
+            <td> <button (click)="deleteCustomer(customer.employeeId)" class="btn btn-outline-primary">Delete</button></td>
+           
+            <td> <button (click)="BookRoom(customer.employeeId)" class="btn btn-outline-primary">Book Room</button></td>
+            
+        </tr>
+       
+
+    </tbody>
+
+</table>
+
+<button (click)="goToDashboard()" class="btn btn-outline-primary">Go to Dashboard</button>
+    
+<!--
+<button class="btn btn-outline-primary" (click) = "addCustomer()" >ADD Customer</button>
+
+-->

@@ -1,0 +1,37 @@
+
+<h2 class="text-center" >Transaction History</h2>
+<table class="table table-striped">
+   
+    <thead class="table-danger" >
+        
+        <th>Book ID</th>
+       <th>Customer ID</th>
+        <th>Room No</th>
+        <th>No of Days</th>
+        <th>Room Price</th>
+        <th>Total Amount</th>
+    </thead>
+    <tbody>
+       
+        <tr *ngFor ="let book of bookings" class="table-light">
+            
+            <td>{{book.bookId}}</td>
+            <td>{{book.customerId}}</td>
+            <td>{{book.roomNo}}</td>
+            <td>{{book.noOfDays}}</td>
+            <td>{{book.roomType}}</td>
+            <td>{{book.totalAmount}}</td>
+           
+        </tr>
+       
+
+    </tbody>
+
+</table>
+
+<button (click)="goToDashboard()" class="btn btn-outline-primary">Go to Dashboard</button>
+ 
+<!--
+<button class="btn btn-outline-primary" (click) = "addCustomer()" >ADD Customer</button>
+
+-->

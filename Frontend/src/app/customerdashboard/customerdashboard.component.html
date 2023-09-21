@@ -1,0 +1,43 @@
+
+<div class="container">
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+       
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+             <!--
+              <li class="nav-item">
+                <a routerLink="roombooking" routerLinkActive="active" class="nav-link">Book Room</a>
+               </li>
+-->
+               <li class="nav-item" >
+                <button type="button" (click)="BookRoom(user2.employeeId)" class="btn btn-outline-primary">Book Room</button>
+               </li>
+
+               <!--create here one button vkiew room
+               <li class="nav-item" >
+                <button type="button" (click)="ViewRoom()" class="btn btn-outline-primary">View Room</button>
+               </li>---->
+              <!-- <li class="nav-item">
+                <a routerLink="roomtypesbooking" routerLinkActive="active" class="nav-link">View RoomTypes</a>
+               </li>
+              -->
+               
+               
+               <li class="nav-item" >
+                <button type="button" (click)="logout()" class="btn btn-outline-primary">Logout</button>
+               </li>
+             </ul>
+             
+          
+          </div>
+    </nav>
+    </div>
+        <h1 class="text-center" >Welcome {{user2.employeeName}} To Hotel</h1>
+        
+        
+    
+    <img src="assets\images\dashboard2.jpg" style="width:100%;height: 600px;" alt="HotelHotel" class="img-responsive">
+    

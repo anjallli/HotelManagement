@@ -1,0 +1,61 @@
+
+<div class="main-content">
+    <div class="section-content section-content-p30">
+        <div class="container-fluid">
+            
+          
+            <form>
+              <div><h1>Book Room</h1></div>
+              <!--
+                <div class="form-group row">
+                  <label class ="col-sm-2 col-form-label">Customer ID </label>
+                <div class ="col-sm-10">
+                    <input type ="text" name="customerid"[(ngModel)]="customer.employeeId" readonly/>
+                </div>
+                </div>
+              -->
+                  <div class="form-group row">
+                    <label class ="col-sm-2 col-form-label">Room No </label>
+                    <div class ="col-sm-10">
+                        <input type ="number" name="roomNo" [(ngModel)]="booking.roomNo"/>
+                  </div>
+                 </div>
+                  <div class="form-group row">
+                      <label class ="col-sm-2 col-form-label">No of Days </label>
+                      <div class ="col-sm-10">
+                          <input type ="number" name="noOfDays"  [(ngModel)]="booking.noOfDays" #noofdays/>
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                    <label class ="col-sm-2 col-form-label">Room Type </label>
+                    <div class ="col-sm-10">
+                       <!-- <input type ="text" name="roomType"  />-->
+                       <select name="roomType" [(ngModel)]="booking.roomType" #amount style="width: 188px;height: 29.56px;">
+                        <option value="10000">King</option>
+                        <option value="700">Single</option>
+                        <option value="1500">Double</option>
+                        <option value="1400">Twin</option>
+                      </select>
+
+                      <button (click)="Calculate(noofdays.value,amount.value)" class="btn btn-outline-primary">Calculate</button>
+                     
+                    </div>
+  
+                  </div>
+                  <div class="form-group row">
+                      <label class ="col-sm-2 col-form-label">Total Amount </label>
+                      <div class ="col-sm-10">
+                        <input type="text" value="{{result}}" [(ngModel)]="booking.totalAmount" name="totalAmount" #total readonly>
+                         
+                      </div>  
+                    </div>
+                    <div class="form-group row">
+                      <div class="col-sm-2"><button (click)="Book(customer.employeeId)" class="btn btn-outline-primary">Book Room</button></div>
+                    <div class="col-sm-2"><button type="reset" class="btn btn-outline-primary">Reset</button></div>
+                    </div>
+                </form>
+
+
+</div>
+</div>
+</div>
