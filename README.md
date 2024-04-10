@@ -14,7 +14,7 @@ Owner can manage all the bookings, customer(add/update/delete a customer), room 
 Frontend: Html, Css, Javascript, Typescript, Angular.
 Tool: Vs code
 
-Backend: Java
+Backend: Java.
 Tool: Springboot
 
 Database: Mysql
