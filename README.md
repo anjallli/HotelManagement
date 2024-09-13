@@ -1,20 +1,20 @@
-#HotelManagementSystem 
-HOTEL MANAGEMENT SYSTEM 
+# HotelManagementSystem 
 
 This project contains modules which are:
-Customer,
-Owner,
-Booking,
-Payment,
-Room Types.
+1. Customer,
+2. Owner,
+3. Booking,
+4. Payment,
+5. Room Types.
+
 A Customer can book rooms and make payment.
 A new Customer can register and login. 
 Owner can manage all the bookings, customer(add/update/delete a customer), room types and other details.
 
-Frontend: Html, Css, Javascript, Typescript, Angular.
-Tool: Vs code
+1. Frontend: Html, Css, Javascript, Typescript, Angular.
+2. Tool: Vs code
 
-Backend: Java.
-Tool: Springboot
+3. Backend: Java.
+4. Tool: Springboot
 
-Database: Mysql
+5. Database: Mysql
