@@ -1,20 +1,14 @@
-# HotelManagementSystem 
+# Hotel Management System 
 
-This project contains modules which are:
-1. Customer,
-2. Owner,
-3. Booking,
-4. Payment,
-5. Room Types.
+## Java Full Stack Development Course - Final Project
 
-A Customer can book rooms and make payment.
-A new Customer can register and login. 
-Owner can manage all the bookings, customer(add/update/delete a customer), room types and other details.
+Hotel Management System is a full-stack web application designed to streamline and manage day-to-day hotel operations efficiently through a centralized platform.
+The application provides dedicated modules for Customer Management, Owner Management, Booking, Payment Processing, and Room Type Management, ensuring smooth handling of hotel services and customer interactions.
 
-1. Frontend: Html, Css, Javascript, Typescript, Angular.
-2. Tool: Vs code
+Customers can register, log in securely, browse available room types, book rooms, and complete payments through an easy-to-use interface.
+The Owner/Admin module allows management of customer records, room details, bookings, payments, and other hotel-related operations with functionalities such as add, update, and delete operations for better administration and control.
 
-3. Backend: Java.
-4. Tool: Springboot
+This project demonstrates practical implementation of full-stack web development concepts including responsive frontend development, backend API integration, database connectivity, authentication handling, and CRUD operations.
+The application was developed with a focus on usability, organized architecture, and efficient data management to simulate a real-world hotel management workflow.
 
-5. Database: Mysql
+Tools & Technologies Used: HTML, CSS, JavaScript, TypeScript, Angular, Java, Spring Boot, MySQL, VS Code.
